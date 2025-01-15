@@ -1,7 +1,7 @@
 name: Build Thrift
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "*" ]
 jobs:
   post-0-9-3:
     strategy:
